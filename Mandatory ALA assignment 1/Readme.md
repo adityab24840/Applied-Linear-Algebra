@@ -1,9 +1,9 @@
 The code imports three Python libraries: 
-    1. numpy for scientific computing, 
-    2. pandas for data analysis, and 
-    3. matplotlib for data visualization. 
+1. numpy for scientific computing, 
+2. pandas for data analysis, and 
+3. matplotlib for data visualization. 
 
-The code reads the Google stock prices csv file as a pandas dataframe, which is a 2D Array. 
+#### The code reads the Google stock prices csv file as a pandas dataframe, which is a 2D Array. 
 The code converts the date column from string to datetime format using pandas. 
 The code extracts the closing price column from the dataframe as a numpy array, which is a 1D array of numbers. 
 The code defines the window size for the moving average filter as 30. 
