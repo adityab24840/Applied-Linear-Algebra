@@ -37,3 +37,6 @@ To run the script and see the stock price smoothing in action:
 1. [Understanding NumPy's Convolve](https://stackoverflow.com/questions/20036663/understanding-numpys-convolve)
 2. [How to Smoothen Data in Python](https://stackoverflow.com/questions/30443883/how-to-smoothen-data-in-python)
 3. [Linear Data Smoothing in Python](https://swharden.com/blog/2008-11-17-linear-data-smoothing-in-python/)
+
+
+![Output Plot](https://github.com/adityab24840/ALA-Lab-work/raw/Assignment-1/Mandatory%20ALA%20assignment%201/output.png)
