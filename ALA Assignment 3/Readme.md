@@ -1,6 +1,6 @@
 # Movie Review Similarity Analysis
 
-This is a Python script that analyzes the similarity between movie reviews using movie vectors and generates visualizations of the most commonly used words.
+This Python script analyzes the similarity between movie reviews using movie vectors and generates visualizations of the most commonly used words.
 
 ## Table of Contents
 
@@ -29,6 +29,7 @@ You can install the required packages using the following command:
 
 ```bash 
 pip install pandas numpy matplotlib
+```
 
 ## Usage
 1. Clone this repository to your local machine.
@@ -38,22 +39,21 @@ pip install pandas numpy matplotlib
 3. Open a terminal or command prompt and navigate to the directory containing the script.
 
 4. Run the script using the following command:
-```bash```
+```bash
 python movie_similarity_analysis.py
+```
 
 The script will calculate movie review vectors, identify similar movie pairs, and generate visualizations.
 
 ## Generated Plots
-![Output Frequency of repeated words plot](https://github.com/adityab24840/ALA-Lab-work/raw/Assignment-1/Mandatory%20ALA%20assignment%201/output.png)
+![Output Frequency of repeated words plot](https://github.com/adityab24840/ALA-Lab-work/blob/Assignment-3/ALA%20Assignment%203/effective_frequency_words_bar_chart.png)
 This bar chart displays the top 10 most frequently used words in the movie reviews along with their frequencies.
 
-
-![Output Movies Similarity Plot](https://github.com/adityab24840/ALA-Lab-work/raw/Assignment-1/Mandatory%20ALA%20assignment%201/output.png)
+![Output Movies Similarity Plot](https://github.com/adityab24840/ALA-Lab-work/blob/Assignment-3/ALA%20Assignment%203/similarity_bar_chart.png)
 This horizontal bar chart visualizes the top 3 pairs of movies that are very much alike based on their similarity scores.
 
-## questions
-# Write the dot product using numpy.dot() and compare with hand coded multiplication and addition as
-alternative. How much speedup do you see with numpy.dot()? Why?
+## Questions
+### Write the dot product using numpy.dot() and compare with hand coded multiplication and addition as an alternative. How much speedup do you see with numpy.dot()? Why?
 
     numpy.dot() efficiently calculates this product using optimized routines written in C, allowing for parallelization and vectorized operations.  
     numpy.dot() offers a considerable speedup due to its optimized implementation and low-level optimizations.
