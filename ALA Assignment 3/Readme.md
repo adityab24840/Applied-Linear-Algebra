@@ -55,6 +55,6 @@ This horizontal bar chart visualizes the top 3 pairs of movies that are very muc
 ## Questions
 ### Write the dot product using numpy.dot() and compare with hand coded multiplication and addition as an alternative. How much speedup do you see with numpy.dot()? Why?
 
-    numpy.dot() efficiently calculates this product using optimized routines written in C, allowing for parallelization and vectorized operations.  
-    numpy.dot() offers a considerable speedup due to its optimized implementation and low-level optimizations.
-    It leverages optimized routines, parallelization, and hardware-level optimizations, resulting in significant speedup for calculating the dot product.
+numpy.dot() efficiently calculates this product using optimized routines written in C, allowing for parallelization and vectorized operations.  
+numpy.dot() offers a considerable speedup due to its optimized implementation and low-level optimizations.
+It leverages optimized routines, parallelization, and hardware-level optimizations, resulting in significant speedup for calculating the dot product.
